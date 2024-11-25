@@ -1,0 +1,38 @@
+
+body { font-family: Arial, sans-serif; 
+  background-color: #ffe5d9; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 0; 
+}
+
+#container { 
+  color: #4f5d75;
+  width: 80%; 
+  max-width: 600px; 
+  background-color: white; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  text-align: left; 
+} 
+
+form { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+form div { 
+  margin-bottom: 15px; 
+  width: 100%; 
+} 
+
+label { 
+  display: block; 
+  font-weight: bold; 
+  margin-bottom: 5px; 
+  text-align: left; 
+}
